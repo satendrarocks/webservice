@@ -1,0 +1,5 @@
+{
+"projectName":"mSurvey",
+"login":"/gums_rmms/authentication",
+"layers":"https://raw.githubusercontent.com/satendrarocks/webservice/master/layer.json"
+}
