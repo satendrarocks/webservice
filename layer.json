@@ -178,8 +178,8 @@
 "urlListSelect":[
             "geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326"
           ]
-}
-            {
+},
+{
 "type":1,
 "checked" : true,
 "nameLAYER": "trees",
@@ -192,7 +192,8 @@
 "urlListSelect":[
             "geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326"
           ]
-}{
+},
+{
 "type":1,
 "checked" : true,
 "nameLAYER": "trees",
@@ -205,7 +206,8 @@
 "urlListSelect":[
             "geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326"
           ]
-}{
+},
+{
 "type":1,
 "checked" : true,
 "nameLAYER": "trees",
@@ -218,7 +220,8 @@
 "urlListSelect":[
             "geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326"
           ]
-}{
+},
+{
 "type":1,
 "checked" : true,
 "nameLAYER": "trees",
@@ -231,7 +234,8 @@
 "urlListSelect":[
             "geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326"
           ]
-}{
+},
+{
 "type":1,
 "checked" : true,
 "nameLAYER": "trees",
@@ -244,7 +248,8 @@
 "urlListSelect":[
             "geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326"
           ]
-}{
+},
+{
 "type":1,
 "checked" : true,
 "nameLAYER": "trees",
@@ -257,7 +262,8 @@
 "urlListSelect":[
             "geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326"
           ]
-}{
+},
+{
 "type":1,
 "checked" : true,
 "nameLAYER": "trees",
@@ -270,7 +276,8 @@
 "urlListSelect":[
             "geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326"
           ]
-}{
+},
+{
 "type":1,
 "checked" : true,
 "nameLAYER": "trees",
@@ -283,7 +290,8 @@
 "urlListSelect":[
             "geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326"
           ]
-}{
+},
+{
 "type":1,
 "checked" : true,
 "nameLAYER": "trees",
