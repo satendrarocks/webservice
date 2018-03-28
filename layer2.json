@@ -2,7 +2,7 @@
 {
 "type":1,
 "checked" : true,
-"nameLAYER": "center_line",
+"nameLAYER": "ashgal_test:center_line",
 "nameDisplay":"Center Line",
 "gemetryType":"LineString",
             
@@ -19,7 +19,7 @@
 {
 "type":1,
 "checked" : true,
-"nameLAYER": "trees",
+"nameLAYER": "ashgal_test:trees",
 "nameDisplay":"Trees",
 "gemetryType":"Point",
 
