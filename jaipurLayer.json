@@ -9,12 +9,14 @@
 "urlTile":"geoserver/ashgal_test/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ashgal_test:center_line&toShowInLegends=true&toShowInTOC=true&SRS=EPSG%3A900913&STYLES=&WIDTH=256&HEIGHT=256",    
 "urlWfs":"geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:center_line&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326",
 
-
 "fields":[
       {
-         "key":"name",
+         "key":"address",
+		  "diplayName":"address",
+		 "value":null,
          "type":"edit_text",
-         "hint":"Enter Your Name",
+         "hint":"Enter Name",
+         "inputType":"text",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -24,37 +26,204 @@
             "err":"Max length can be at most 10."
          }
       },
-      {
-         "key":"email",
+	  {
+         "key":"altitude",
+		  "diplayName":"altitude",
+		 "value":null,
          "type":"edit_text",
-         "hint":"Enter Your Email",
-         "v_email":{
-            "value":"true",
-            "err":"Not an email."
+         "hint":"Enter altitude",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
          }
       },
-      {
-         "key":"labelBackgroundImage",
-         "type":"label",
-         "text":"Choose Background Image"
-      },
-      {
-         "key":"chooseImage",
-         "type":"choose_image",
-         "uploadButtonText":"Choose",
-         "v_required":{
-            "value":"true",
-            "err":"Please choose an image to proceed."
+	  
+	  {
+         "key":"street_name",
+		  "diplayName":"street_name",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter street_name",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
          }
       },
+	  
+	  {
+         "key":"category",
+		  "diplayName":"category",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"name",
+		  "diplayName":"Name",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"comment",
+		  "diplayName":"comment",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter comment",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"tree_id",
+		  "diplayName":"tree_id",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter tree_id",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"side",
+		  "diplayName":"side",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter side",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"type",
+		  "diplayName":"type",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter type",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"bbox",
+		  "diplayName":"bbox",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter bbox",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"area_name",
+		  "diplayName":"area_name",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter  area_name",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"flag_status",
+		  "diplayName":"flag_status",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter  flag_status",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  
       {
-         "key":"house",
+         "key":"landmark",
+		 "diplayName":"LandMark",
+		 "value":null,
          "type":"spinner",
-         "hint":"Name Thy House",
+         "hint":"Select the landmark",
          "values":[
-            "Stark",
-            "Targeriyan",
-            "Lannister"
+            "Pune",
+            "Mumbai",
+            "Delhi"
          ],
          "v_required":{
             "value":"true",
@@ -78,12 +247,16 @@
 "urlTile":"geoserver/ashgal_test/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ashgal_test:trees&toShowInLegends=true&toShowInTOC=true&SRS=EPSG%3A900913&STYLES=&WIDTH=256&HEIGHT=256", 
 "urlWfs":"geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326",
 
-
+            
+            
 "fields":[
       {
-         "key":"name",
+         "key":"address",
+		  "diplayName":"address",
+		 "value":null,
          "type":"edit_text",
-         "hint":"Enter Your Name",
+         "hint":"Enter Name",
+         "inputType":"text",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -93,37 +266,204 @@
             "err":"Max length can be at most 10."
          }
       },
-      {
-         "key":"email",
+	  {
+         "key":"altitude",
+		  "diplayName":"altitude",
+		 "value":null,
          "type":"edit_text",
-         "hint":"Enter Your Email",
-         "v_email":{
-            "value":"true",
-            "err":"Not an email."
+         "hint":"Enter altitude",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
          }
       },
-      {
-         "key":"labelBackgroundImage",
-         "type":"label",
-         "text":"Choose Background Image"
-      },
-      {
-         "key":"chooseImage",
-         "type":"choose_image",
-         "uploadButtonText":"Choose",
-         "v_required":{
-            "value":"true",
-            "err":"Please choose an image to proceed."
+	  
+	  {
+         "key":"street_name",
+		  "diplayName":"street_name",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter street_name",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
          }
       },
+	  
+	  {
+         "key":"category",
+		  "diplayName":"category",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"name",
+		  "diplayName":"Name",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"comment",
+		  "diplayName":"comment",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter comment",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"tree_id",
+		  "diplayName":"tree_id",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter tree_id",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"side",
+		  "diplayName":"side",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter side",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"type",
+		  "diplayName":"type",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter type",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"bbox",
+		  "diplayName":"bbox",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter bbox",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"area_name",
+		  "diplayName":"area_name",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter  area_name",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"flag_status",
+		  "diplayName":"flag_status",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter  flag_status",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  
       {
-         "key":"house",
+         "key":"landmark",
+		 "diplayName":"LandMark",
+		 "value":null,
          "type":"spinner",
-         "hint":"Name Thy House",
+         "hint":"Select the landmark",
          "values":[
-            "Stark",
-            "Targeriyan",
-            "Lannister"
+            "Pune",
+            "Mumbai",
+            "Delhi"
          ],
          "v_required":{
             "value":"true",
@@ -131,8 +471,6 @@
          }
       }
    ]
-
-}
 
 
 
