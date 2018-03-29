@@ -12,7 +12,7 @@
 "fields":[
       {
          "key":"address",
-		  "diplayName":"address",
+		  "displayName":"address",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
@@ -28,7 +28,7 @@
       },
 	  {
          "key":"altitude",
-		  "diplayName":"altitude",
+		  "displayName":"altitude",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter altitude",
@@ -45,7 +45,7 @@
 	  
 	  {
          "key":"street_name",
-		  "diplayName":"street_name",
+		  "displayName":"street_name",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter street_name",
@@ -62,7 +62,7 @@
 	  
 	  {
          "key":"category",
-		  "diplayName":"category",
+		  "displayName":"category",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
@@ -79,7 +79,7 @@
 	  
 	  {
          "key":"name",
-		  "diplayName":"Name",
+		  "displayName":"Name",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
@@ -96,7 +96,7 @@
 	  
 	  {
          "key":"comment",
-		  "diplayName":"comment",
+		  "displayName":"comment",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter comment",
@@ -113,7 +113,7 @@
 	  
 	  {
          "key":"tree_id",
-		  "diplayName":"tree_id",
+		  "displayName":"tree_id",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter tree_id",
@@ -130,7 +130,7 @@
 	  
 	  {
          "key":"side",
-		  "diplayName":"side",
+		  "displayName":"side",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter side",
@@ -147,7 +147,7 @@
 	  
 	  {
          "key":"type",
-		  "diplayName":"type",
+		  "displayName":"type",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter type",
@@ -164,7 +164,7 @@
 	  
 	  {
          "key":"bbox",
-		  "diplayName":"bbox",
+		  "displayName":"bbox",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter bbox",
@@ -181,7 +181,7 @@
 	  
 	  {
          "key":"area_name",
-		  "diplayName":"area_name",
+		  "displayName":"area_name",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter  area_name",
@@ -198,7 +198,7 @@
 	  
 	  {
          "key":"flag_status",
-		  "diplayName":"flag_status",
+		  "displayName":"flag_status",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter  flag_status",
@@ -216,7 +216,7 @@
 	  
       {
          "key":"landmark",
-		 "diplayName":"LandMark",
+		 "displayName":"LandMark",
 		 "value":null,
          "type":"spinner",
          "hint":"Select the landmark",
@@ -252,7 +252,7 @@
 "fields":[
       {
          "key":"address",
-		  "diplayName":"address",
+		  "displayName":"address",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
@@ -268,7 +268,7 @@
       },
 	  {
          "key":"altitude",
-		  "diplayName":"altitude",
+		  "displayName":"altitude",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter altitude",
@@ -285,7 +285,7 @@
 	  
 	  {
          "key":"street_name",
-		  "diplayName":"street_name",
+		  "displayName":"street_name",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter street_name",
@@ -302,7 +302,7 @@
 	  
 	  {
          "key":"category",
-		  "diplayName":"category",
+		  "displayName":"category",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
@@ -319,7 +319,7 @@
 	  
 	  {
          "key":"name",
-		  "diplayName":"Name",
+		  "displayName":"Name",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
@@ -336,7 +336,7 @@
 	  
 	  {
          "key":"comment",
-		  "diplayName":"comment",
+		  "displayName":"comment",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter comment",
@@ -353,7 +353,7 @@
 	  
 	  {
          "key":"tree_id",
-		  "diplayName":"tree_id",
+		  "displayName":"tree_id",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter tree_id",
@@ -370,7 +370,7 @@
 	  
 	  {
          "key":"side",
-		  "diplayName":"side",
+		  "displayName":"side",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter side",
@@ -387,7 +387,7 @@
 	  
 	  {
          "key":"type",
-		  "diplayName":"type",
+		  "displayName":"type",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter type",
@@ -404,7 +404,7 @@
 	  
 	  {
          "key":"bbox",
-		  "diplayName":"bbox",
+		  "displayName":"bbox",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter bbox",
@@ -421,7 +421,7 @@
 	  
 	  {
          "key":"area_name",
-		  "diplayName":"area_name",
+		  "displayName":"area_name",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter  area_name",
@@ -438,7 +438,7 @@
 	  
 	  {
          "key":"flag_status",
-		  "diplayName":"flag_status",
+		  "displayName":"flag_status",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter  flag_status",
@@ -456,7 +456,7 @@
 	  
       {
          "key":"landmark",
-		 "diplayName":"LandMark",
+		 "displayName":"LandMark",
 		 "value":null,
          "type":"spinner",
          "hint":"Select the landmark",
