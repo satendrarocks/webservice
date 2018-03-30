@@ -274,7 +274,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
-		 "editable":"true",
+		 "editable":true,
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
@@ -290,7 +290,7 @@
 		  "displayName":"altitude",
 		 "value":null,
          "type":"edit_text",
-		 "editable":"true",
+		 "editable":true,
          "hint":"Enter altitude",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
@@ -308,7 +308,7 @@
 		  "displayName":"street_name",
 		 "value":null,
          "type":"edit_text",
-		 "editable":"true",
+		 "editable":true,
          "hint":"Enter street_name",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
@@ -326,7 +326,7 @@
 		  "displayName":"category",
 		 "value":null,
          "type":"edit_text",
-		 "editable":"true",
+		 "editable":true,
          "hint":"Enter Name",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
@@ -344,7 +344,7 @@
 		  "displayName":"Name",
 		 "value":null,
          "type":"edit_text",
-		 "editable":"true",
+		 "editable":true,
          "hint":"Enter Name",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
@@ -362,7 +362,7 @@
 		  "displayName":"comment",
 		 "value":null,
          "type":"edit_text",
-		 "editable":"true",
+		 "editable":true,
          "hint":"Enter comment",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
@@ -380,7 +380,7 @@
 		  "displayName":"tree_id",
 		 "value":null,
          "type":"edit_text",
-		 "editable":"false",
+		 "editable":false,
          "hint":"Enter tree_id",
          "inputType":"TYPE_CLASS_NUMBER",
          "v_min_length":{
@@ -398,7 +398,7 @@
 		  "displayName":"side",
 		 "value":null,
          "type":"edit_text",
-		 "editable":"true",
+		 "editable":true,
          "hint":"Enter side",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
@@ -417,7 +417,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter type",
-		 "editable":"true",
+		 "editable":true,
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
@@ -436,7 +436,7 @@
 		  "displayName":"area_name",
 		 "value":null,
          "type":"edit_text",
-		 "editable":"true",
+		 "editable":true,
          "hint":"Enter  area_name",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
@@ -454,7 +454,7 @@
 		  "displayName":"flag_status",
 		 "value":null,
          "type":"edit_text",
-		 "editable":"true",
+		 "editable":true,
          "hint":"Enter  flag_status",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
@@ -473,7 +473,7 @@
 		 "displayName":"LandMark",
 		 "value":null,
          "type":"spinner",
-		 "editable":"true",
+		 "editable":true,
          "hint":"Select the landmark",
          "values":[
             "Pune",
