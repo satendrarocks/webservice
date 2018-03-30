@@ -1,7 +1,7 @@
 [
 {
 "type":11,
-"checked" : false,
+"checked" : true,
 "nameLAYER": "ashgal_test:center_line",
 "nameDisplay":"Center Line",
 "geometryType":"LineString",
@@ -224,7 +224,7 @@
 
 {
 "type":11,
-"checked" : false,
+"checked" : true,
 "nameLAYER": "ashgal_test:trees",
 "nameDisplay":"Trees",
 "geometryType":"Point",
