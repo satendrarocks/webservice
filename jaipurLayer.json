@@ -376,9 +376,8 @@
          "hint":"Enter side",
          "inputType":"text",
 		  "values":[
-            "Pune",
-            "Mumbai",
-            "Delhi"
+            "LEFT",
+            "RIGHT"
          ],
          "v_min_length":{
             "value":"3",
