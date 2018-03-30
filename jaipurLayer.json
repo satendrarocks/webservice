@@ -237,7 +237,7 @@
 "fields":[
       {
          "key":"address",
-		  "displayName":"address",
+		  "displayName":"Address",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
@@ -253,7 +253,7 @@
       },
 	  {
          "key":"altitude",
-		  "displayName":"altitude",
+		  "displayName":"Altitude",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter altitude",
@@ -270,7 +270,7 @@
 	  
 	  {
          "key":"street_name",
-		  "displayName":"street_name",
+		  "displayName":"Street Name",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter street_name",
@@ -287,11 +287,16 @@
 	  
 	  {
          "key":"category",
-		  "displayName":"category",
+		  "displayName":"Category",
 		 "value":null,
-         "type":"edit_text",
+         "type":"check_box",
          "hint":"Enter Name",
          "inputType":"TYPE_CLASS_TEXT",
+	 "values":[
+            "aa",
+            "bb",
+            "cc"
+],
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -321,7 +326,7 @@
 	  
 	  {
          "key":"comment",
-		  "displayName":"comment",
+		  "displayName":"Comment",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter comment",
@@ -338,7 +343,7 @@
 	  
 	  {
          "key":"tree_id",
-		  "displayName":"tree_id",
+		  "displayName":"Tree ID",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter tree_id",
@@ -355,7 +360,7 @@
 	  
 	  {
          "key":"side",
-		  "displayName":"side",
+		  "displayName":"Side",
 		 "value":null,
          "type":"spinner",
          "hint":"Enter side",
@@ -377,7 +382,7 @@
 	  
 	  {
          "key":"type",
-		  "displayName":"type",
+		  "displayName":"Type",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter type",
@@ -396,7 +401,7 @@
 	  
 	  {
          "key":"area_name",
-		  "displayName":"area_name",
+		  "displayName":"Area Name",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter  area_name",
@@ -413,7 +418,7 @@
 	  
 	  {
          "key":"flag_status",
-		  "displayName":"flag_status",
+		  "displayName":"Flag Status",
 		 "value":null,
          "type":"spinner",
          "hint":"Enter  flag_status",
