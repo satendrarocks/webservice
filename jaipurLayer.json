@@ -289,14 +289,9 @@
          "key":"category",
 		  "displayName":"Category",
 		 "value":null,
-         "type":"check_box",
          "hint":"Enter Name",
          "inputType":"TYPE_CLASS_TEXT",
-	 "values":[
-            "aa",
-            "bb",
-            "cc"
-],
+         "type":"edit_text",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -328,7 +323,12 @@
          "key":"comment",
 		  "displayName":"Comment",
 		 "value":null,
-         "type":"edit_text",
+                  "type":"check_box",
+	 "values":[
+            "aa",
+            "bb",
+            "cc"
+],
          "hint":"Enter comment",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
