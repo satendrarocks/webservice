@@ -269,137 +269,12 @@
 
 "fields":[
       {
-         "key":"address",
-		  "displayName":"address",
+         "key":"id",
+		  "displayName":"ID",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
-		 "editable":true,
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  {
-         "key":"altitude",
-		  "displayName":"altitude",
-		 "value":null,
-         "type":"edit_text",
-		 "editable":true,
-         "hint":"Enter altitude",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"street_name",
-		  "displayName":"street_name",
-		 "value":null,
-         "type":"edit_text",
-		 "editable":true,
-         "hint":"Enter street_name",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"category",
-		  "displayName":"category",
-		 "value":null,
-         "type":"edit_text",
-		 "editable":true,
-         "hint":"Enter Name",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"name",
-		  "displayName":"Name",
-		 "value":null,
-         "type":"edit_text",
-		 "editable":true,
-         "hint":"Enter Name",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"comment",
-		  "displayName":"comment",
-		 "value":null,
-         "type":"edit_text",
-		 "editable":true,
-         "hint":"Enter comment",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"tree_id",
-		  "displayName":"tree_id",
-		 "value":null,
-         "type":"edit_text",
 		 "editable":false,
-         "hint":"Enter tree_id",
-         "inputType":"TYPE_CLASS_NUMBER",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"side",
-		  "displayName":"side",
-		 "value":null,
-         "type":"edit_text",
-		 "editable":true,
-         "hint":"Enter side",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
@@ -410,14 +285,14 @@
             "err":"Max length can be at most 10."
          }
       },
-	  
-	  {
-         "key":"type",
-		  "displayName":"type",
+	
+	 {
+         "key":"update_by",
+		  "displayName":"Update By",
 		 "value":null,
          "type":"edit_text",
-         "hint":"Enter type",
-		 "editable":true,
+         "hint":"Enter Name",
+		 "editable":false,
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
@@ -428,16 +303,14 @@
             "err":"Max length can be at most 10."
          }
       },
-	  
-	  
-	  
-	  {
-         "key":"area_name",
-		  "displayName":"area_name",
+	
+	 {
+         "key":"status",
+		  "displayName":"status",
 		 "value":null,
          "type":"edit_text",
-		 "editable":true,
-         "hint":"Enter  area_name",
+         "hint":"Enter Name",
+		 "editable":false,
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
@@ -448,14 +321,14 @@
             "err":"Max length can be at most 10."
          }
       },
-	  
-	  {
-         "key":"flag_status",
-		  "displayName":"flag_status",
+	
+	 {
+         "key":"comment",
+		  "displayName":"Comment",
 		 "value":null,
          "type":"edit_text",
-		 "editable":true,
-         "hint":"Enter  flag_status",
+         "hint":"Enter Name",
+		 "editable":false,
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
@@ -466,25 +339,44 @@
             "err":"Max length can be at most 10."
          }
       },
-	  
-	  
-      {
-         "key":"landmark",
-		 "displayName":"LandMark",
+	
+	 {
+         "key":"length_of_",
+		  "displayName":"Length",
 		 "value":null,
-         "type":"spinner",
-		 "editable":true,
-         "hint":"Select the landmark",
-         "values":[
-            "Pune",
-            "Mumbai",
-            "Delhi"
-         ],
-         "v_required":{
-            "value":"true",
-            "err":"Please choose a value to proceed."
+         "type":"edit_text",
+         "hint":"Enter Name",
+		 "editable":false,
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	
+	 {
+         "key":"name_of_ro",
+		  "displayName":"Name of road",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+		 "editable":false,
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
          }
       }
+	  
+	
    ]
 
 }
