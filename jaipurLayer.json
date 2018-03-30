@@ -376,6 +376,7 @@
          "hint":"Enter side",
          "inputType":"text",
 		  "values":[
+            "Select",
             "LEFT",
             "RIGHT"
          ],
