@@ -16,7 +16,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -32,7 +32,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter altitude",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -49,7 +49,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter street_name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -66,7 +66,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -83,7 +83,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -100,7 +100,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter comment",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -117,7 +117,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter tree_id",
-         "inputType":"0x00000002",
+         "inputType":"TYPE_CLASS_NUMBER",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -134,7 +134,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter side",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -151,7 +151,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter type",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -170,7 +170,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter  area_name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -187,7 +187,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter  flag_status",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -241,7 +241,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -257,7 +257,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter altitude",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -274,7 +274,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter street_name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -291,7 +291,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -308,7 +308,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -325,7 +325,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter comment",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -342,7 +342,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter tree_id",
-         "inputType":"0x00000002",
+         "inputType":"TYPE_CLASS_NUMBER",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -359,7 +359,7 @@
 		 "value":null,
          "type":"spinner",
          "hint":"Enter side",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
 		  "values":[
             "Select",
             "LEFT",
@@ -381,7 +381,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter type",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -400,7 +400,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter  area_name",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -417,7 +417,7 @@
 		 "value":null,
          "type":"spinner",
          "hint":"Enter  flag_status",
-         "inputType":"0x00000001",
+         "inputType":"TYPE_CLASS_TEXT",
 		  "values":[
             "Select",
             "a",
