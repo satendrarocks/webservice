@@ -430,9 +430,16 @@
          "key":"flag_status",
 		  "displayName":"flag_status",
 		 "value":null,
-         "type":"edit_text",
+         "type":"spinner",
          "hint":"Enter  flag_status",
          "inputType":"text",
+		  "values":[
+            "Select",
+            "a",
+            "b",
+            "c",
+            "d"
+         ],
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
