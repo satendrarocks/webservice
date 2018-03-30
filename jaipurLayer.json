@@ -1,223 +1,4 @@
 [
-{
-"type":11,
-"checked" : true,
-"nameLAYER": "ashgal_test:center_line",
-"nameDisplay":"Center Line",
-"geometryType":"LineString",
-            
-"urlTile":"geoserver/ashgal_test/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ashgal_test:center_line&toShowInLegends=true&toShowInTOC=true&SRS=EPSG%3A900913&STYLES=&WIDTH=256&HEIGHT=256",    
-"urlWfs":"geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:center_line&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326",
-
-"fields":[
-      {
-         "key":"address",
-		  "displayName":"address",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter Name",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  {
-         "key":"altitude",
-		  "displayName":"altitude",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter altitude",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"street_name",
-		  "displayName":"street_name",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter street_name",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"category",
-		  "displayName":"category",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter Name",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"name",
-		  "displayName":"Name",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter Name",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"comment",
-		  "displayName":"comment",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter comment",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"tree_id",
-		  "displayName":"tree_id",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter tree_id",
-         "inputType":"TYPE_CLASS_NUMBER",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"side",
-		  "displayName":"side",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter side",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"type",
-		  "displayName":"type",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter type",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  
-	  
-	  {
-         "key":"area_name",
-		  "displayName":"area_name",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter  area_name",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  {
-         "key":"flag_status",
-		  "displayName":"flag_status",
-		 "value":null,
-         "type":"edit_text",
-         "hint":"Enter  flag_status",
-         "inputType":"TYPE_CLASS_TEXT",
-         "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
-         },
-         "v_max_length":{
-            "value":"10",
-            "err":"Max length can be at most 10."
-         }
-      },
-	  
-	  
-      {
-         "key":"landmark",
-		 "displayName":"LandMark",
-		 "value":null,
-         "type":"spinner",
-         "hint":"Select the landmark",
-         "values":[
-            "Pune",
-            "Mumbai",
-            "Delhi"
-         ],
-         "v_required":{
-            "value":"true",
-            "err":"Please choose a value to proceed."
-         }
-      }
-   ]
-
-},
 
 
 
@@ -459,6 +240,229 @@
       }
    ]
 
+},
+	
+	
+	
+
+{
+"type":11,
+"checked" : true,
+"nameLAYER": "ashgal_test:center_line",
+"nameDisplay":"Center Line",
+"geometryType":"LineString",
+            
+"urlTile":"geoserver/ashgal_test/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ashgal_test:center_line&toShowInLegends=true&toShowInTOC=true&SRS=EPSG%3A900913&STYLES=&WIDTH=256&HEIGHT=256",    
+"urlWfs":"geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:center_line&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326",
+
+"fields":[
+      {
+         "key":"address",
+		  "displayName":"address",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  {
+         "key":"altitude",
+		  "displayName":"altitude",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter altitude",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"street_name",
+		  "displayName":"street_name",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter street_name",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"category",
+		  "displayName":"category",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"name",
+		  "displayName":"Name",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"comment",
+		  "displayName":"comment",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter comment",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"tree_id",
+		  "displayName":"tree_id",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter tree_id",
+         "inputType":"TYPE_CLASS_NUMBER",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"side",
+		  "displayName":"side",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter side",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"type",
+		  "displayName":"type",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter type",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  
+	  
+	  {
+         "key":"area_name",
+		  "displayName":"area_name",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter  area_name",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  {
+         "key":"flag_status",
+		  "displayName":"flag_status",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter  flag_status",
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	  
+	  
+      {
+         "key":"landmark",
+		 "displayName":"LandMark",
+		 "value":null,
+         "type":"spinner",
+         "hint":"Select the landmark",
+         "values":[
+            "Pune",
+            "Mumbai",
+            "Delhi"
+         ],
+         "v_required":{
+            "value":"true",
+            "err":"Please choose a value to proceed."
+         }
+      }
+   ]
 
 }
+	
 ]
