@@ -162,7 +162,22 @@
          }
       },
 	  
-	
+	  {
+         "key":"bbox",
+		  "displayName":"bbox",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter bbox",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
 	  
 	  {
          "key":"area_name",
@@ -357,9 +372,14 @@
          "key":"side",
 		  "displayName":"side",
 		 "value":null,
-         "type":"edit_text",
+         "type":"spinner",
          "hint":"Enter side",
          "inputType":"text",
+		  "values":[
+            "Pune",
+            "Mumbai",
+            "Delhi"
+         ],
          "v_min_length":{
             "value":"3",
             "err":"Min length should be at least 3"
@@ -387,7 +407,22 @@
          }
       },
 	  
-	
+	  {
+         "key":"bbox",
+		  "displayName":"bbox",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter bbox",
+         "inputType":"text",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
 	  
 	  {
          "key":"area_name",
