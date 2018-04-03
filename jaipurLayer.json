@@ -328,7 +328,7 @@
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name",
-		 "editable":false,
+		 "editable":true,
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"3",
