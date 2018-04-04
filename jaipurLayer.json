@@ -381,6 +381,56 @@
 
 },	
 	
+	{
+"type":11,
+"checked" : true,
+"nameLAYER": "ashgal_test:center_line",
+"nameDisplay":"Test_Line",
+"geometryType":"LineString",
+            
+"urlTile":"geoserver/ashgal_test/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ashgal_test:center_line&toShowInLegends=true&toShowInTOC=true&SRS=EPSG%3A900913&STYLES=&WIDTH=256&HEIGHT=256",    
+"urlWfs":"geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:center_line&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326",
+
+"fields":[
+      {
+         "key":"id",
+		  "displayName":"ID",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+		 "editable":true,
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      },
+	
+	 {
+         "key":"update_by",
+		  "displayName":"Update By",
+		 "value":null,
+         "type":"edit_text",
+         "hint":"Enter Name",
+		 "editable":false,
+         "inputType":"TYPE_CLASS_TEXT",
+         "v_min_length":{
+            "value":"3",
+            "err":"Min length should be at least 3"
+         },
+         "v_max_length":{
+            "value":"10",
+            "err":"Max length can be at most 10."
+         }
+      }
+	]
+	},
+	
+	
 {
 "type":11,
 "checked" : true,
