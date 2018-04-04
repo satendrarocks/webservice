@@ -278,11 +278,11 @@
 "fields":[
       {
          "key":"address",
-		  "displayName":"Address",
+		  "displayName":"Address of point",
 		 "value":null,
          "type":"edit_text",
          "hint":"Enter Name 1",
-		 "editable":true,
+		 "editable":false,
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
             "value":"5",
@@ -295,15 +295,15 @@
       },
 	  {
          "key":"altitude",
-		  "displayName":"Altitude",
+		  "displayName":"Altitude of point",
 		 "value":null,
          "type":"edit_text",
 		 "editable":true,
          "hint":"Enter altitude 2",
          "inputType":"TYPE_CLASS_TEXT",
          "v_min_length":{
-            "value":"3",
-            "err":"Min length should be at least 3"
+            "value":"6",
+            "err":"Min length should be at least 6"
          },
          "v_max_length":{
             "value":"10",
