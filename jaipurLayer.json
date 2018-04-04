@@ -111,7 +111,7 @@
 		  "displayName":"Comment",
 		 "editable":true,
 		 "value":null,
-                  "type":"check_box",
+                  "type":"radio",
 	 "values":[
             "aa",
             "bb",
