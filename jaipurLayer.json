@@ -156,7 +156,7 @@
 		 "editable":true,
          "inputType":"TYPE_CLASS_TEXT",
 		  "values":[
-            "Select",
+         
             "LEFT",
             "RIGHT"
          ],
