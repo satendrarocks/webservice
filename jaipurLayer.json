@@ -111,7 +111,7 @@
 		  "displayName":"Comment",
 		 "editable":true,
 		 "value":null,
-                  "type":"radio",
+                  "type":"check_box",
 	 "values":[
             "aa",
             "bb",
@@ -151,7 +151,7 @@
          "key":"side",
 		  "displayName":"Side",
 		 "value":null,
-         "type":"spinner",
+         "type":"radio",
          "hint":"Enter side",
 		 "editable":true,
          "inputType":"TYPE_CLASS_TEXT",
