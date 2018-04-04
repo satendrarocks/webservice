@@ -266,7 +266,7 @@
 "geometryType":"Point",
 "clickable":true,
 	"menu":{
-		"startEdit":true,
+		"startEdit":false,
 		"remove":true
 	},
 
