@@ -629,7 +629,7 @@
 	
 {
 "type":11,
-"checked" : true,
+"checked" : false,
 "nameLAYER": "ashgal_test:building",
 "nameDisplay":"Building",
 "geometryType":"Polygon",
