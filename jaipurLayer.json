@@ -10,6 +10,7 @@
 "nameDisplay":"Trees",
 "geometryType":"Point",
 "clickable":true,
+	"editAttribute":true,
 	"menu":{
 		"startEdit":true,
 		"remove":true
@@ -265,6 +266,7 @@
 "nameDisplay":"Test_Point",
 "geometryType":"Point",
 "clickable":true,
+	"editAttribute":false,
 	"menu":{
 		"startEdit":false,
 		"remove":true
@@ -503,6 +505,7 @@
 "nameDisplay":"Center Line",
 "geometryType":"LineString",
 "clickable":true,
+	"editAttribute":true,
 	"menu":{
 		"startEdit":true,
 		"remove":true
@@ -634,6 +637,7 @@
 "nameDisplay":"Building",
 "geometryType":"Polygon",
 "clickable":true,
+	"editAttribute":true,
 	"menu":{
 		"startEdit":true,
 		"remove":true
