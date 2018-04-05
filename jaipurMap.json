@@ -20,7 +20,7 @@
 {
 "type":"custom",
 "displayName":"Custom Map",
-"url":"http://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
+"url":"http://197.159.134.178/adventgis/services/maps/tiles/subah_ghana:basemap/{z}/{x}/{y}.jpg"
 
 }
 
