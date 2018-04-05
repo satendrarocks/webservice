@@ -6,14 +6,14 @@
 "ProjectID": "11111",
 "LoginURL": "http",
 "LayerConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurLayer.json",
-"MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurMap.json",
+"MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurMap.json"
 },
 {
 "ProjectName": "Jaipur Project-2",
 "ProjectID": "22222",
 "LoginURL": "http",
 "LayerConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurLayer.json",
-"MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurMap.json",
+"MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurMap.json"
 }
 
 
