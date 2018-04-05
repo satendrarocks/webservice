@@ -16,12 +16,6 @@
 "displayName":null,
 "url":null
 
-},
-{
-"type":"custom",
-"displayName":"Custom Map",
-"url":"http://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
-
 }
 
 ]
