@@ -12,7 +12,7 @@
 "ProjectName": "Jaipur Project-2",
 "ProjectID": "22222",
 "LoginURL": "http://mcgm.igenesys.com/gums_rmms/authentication",
-"LayerConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurLayer.json",
+"LayerConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/TeamAProjectB.json",
 "MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurMap.json"
 }
 
