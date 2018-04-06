@@ -5,14 +5,14 @@
 "ProjectID": "11111",
 "LoginURL": "http://mcgm.igenesys.com/gums_rmms/authentication",
 "LayerConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/TeamAProjectA.json",
-"MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurMap.json"
+"MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/TeamAProjectAMapType.json"
 },
 {
 "ProjectName": "TeamAProjectB",
 "ProjectID": "22222",
 "LoginURL": "http://mcgm.igenesys.com/gums_rmms/authentication",
 "LayerConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/TeamAProjectB.json",
-"MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurMap.json"
+"MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/TeamAProjectBMapType.json"
 }
 
 
