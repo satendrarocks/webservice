@@ -1,20 +1,23 @@
 [
-
+{
+"projectName": "TeamA"
+},
 
 {
-"ProjectName": "Jaipur Project-1",
+"ProjectName": "TeamAProjectA",
 "ProjectID": "11111",
 "LoginURL": "http://mcgm.igenesys.com/gums_rmms/authentication",
 "LayerConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/TeamAProjectA.json",
 "MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurMap.json"
 },
 {
-"ProjectName": "Jaipur Project-2",
+"ProjectName": "TeamAProjectB",
 "ProjectID": "22222",
 "LoginURL": "http://mcgm.igenesys.com/gums_rmms/authentication",
 "LayerConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/TeamAProjectB.json",
 "MapTypeConfig": "https://raw.githubusercontent.com/satendrarocks/webservice/master/jaipurMap.json"
 }
+
 
 
 
