@@ -1,0 +1,239 @@
+[
+{
+      "type":11,
+      "checked":true,
+      "nameLAYER":"ashgal_test:trees",
+      "nameDisplay":"Trees",
+      "geometryType":"Point",
+      "clickable":true,
+      "editAttribute":true,
+      "menu":{
+         "startEdit":true,
+         "remove":true
+      },
+      "urlTile":"geoserver/ashgal_test/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=ashgal_test:trees&toShowInLegends=true&toShowInTOC=true&SRS=EPSG%3A900913&STYLES=&WIDTH=256&HEIGHT=256",
+      "urlWfs":"geoserver/ashgal_test/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=ashgal_test:trees&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326",
+      "fields":[
+         {
+            "key":"address",
+            "displayName":"Address",
+            "value":null,
+            "type":"edit_text",
+            "hint":"Enter Name",
+            "editable":true,
+            "inputType":"TYPE_CLASS_TEXT",
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"altitude",
+            "displayName":"Altitude",
+            "value":null,
+            "type":"edit_text",
+            "editable":true,
+            "hint":"Enter altitude",
+            "inputType":"TYPE_CLASS_TEXT",
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"street_name",
+            "displayName":"Street Name",
+            "value":null,
+            "type":"edit_text",
+            "editable":true,
+            "hint":"Enter street_name",
+            "inputType":"TYPE_CLASS_TEXT",
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"category",
+            "displayName":"Category",
+            "value":null,
+            "hint":"Enter Name",
+            "editable":true,
+            "inputType":"TYPE_CLASS_TEXT",
+            "type":"edit_text",
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"name",
+            "displayName":"Name",
+            "value":null,
+            "type":"edit_text",
+            "hint":"Enter Name",
+            "editable":true,
+            "inputType":"TYPE_CLASS_TEXT",
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"comment",
+            "displayName":"Comment",
+            "editable":true,
+            "value":null,
+            "type":"check_box",
+            "values":[
+               "aa",
+               "bb",
+               "cc"
+            ],
+            "hint":"Enter comment",
+            "inputType":"TYPE_CLASS_TEXT",
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"tree_id",
+            "displayName":"Tree ID",
+            "value":null,
+            "type":"edit_text",
+            "hint":"Enter tree_id",
+            "editable":"false",
+            "inputType":"TYPE_CLASS_NUMBER",
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"side",
+            "displayName":"Side",
+            "value":null,
+            "type":"radio",
+            "hint":"Enter side",
+            "editable":true,
+            "inputType":"TYPE_CLASS_TEXT",
+            "values":[
+               "LEFT",
+               "RIGHT"
+            ],
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"type",
+            "displayName":"Type",
+            "value":null,
+            "type":"edit_text",
+            "hint":"Enter type",
+            "editable":true,
+            "inputType":"TYPE_CLASS_TEXT",
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"area_name",
+            "displayName":"Area Name",
+            "value":null,
+            "type":"edit_text",
+            "hint":"Enter  area_name",
+            "editable":true,
+            "inputType":"TYPE_CLASS_TEXT",
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"flag_status",
+            "displayName":"Flag Status",
+            "value":null,
+            "type":"spinner",
+            "hint":"Enter  flag_status",
+            "editable":true,
+            "inputType":"TYPE_CLASS_TEXT",
+            "values":[
+               "Select",
+               "a",
+               "b",
+               "c",
+               "d"
+            ],
+            "v_min_length":{
+               "value":"3",
+               "err":"Min length should be at least 3"
+            },
+            "v_max_length":{
+               "value":"10",
+               "err":"Max length can be at most 10."
+            }
+         },
+         {
+            "key":"landmark",
+            "displayName":"LandMark",
+            "value":null,
+            "type":"spinner",
+            "editable":true,
+            "hint":"Select the landmark",
+            "values":[
+               "Pune",
+               "Mumbai",
+               "Delhi"
+            ],
+            "v_required":{
+               "value":"true",
+               "err":"Please choose a value to proceed."
+            }
+         }
+      ]
+   }
+]
