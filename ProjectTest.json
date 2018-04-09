@@ -84,7 +84,7 @@
          },
          {
             "key":"name",
-            "displayName":"Name",
+            "displayName":"Name of layer",
             "value":null,
             "type":"edit_text",
             "hint":"Enter Name",
