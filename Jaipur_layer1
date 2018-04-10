@@ -1,0 +1,263 @@
+[
+    {
+        "editAttribute": true,
+        "urlTile": "http://forums.igenesys.com/geoservergafsim/gafsim/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=gafsim:jaipur_building&toShowInLegends=true&toShowInTOC=true&SRS=EPSG%3A900913&STYLES=&WIDTH=256&HEIGHT=256",
+        "nameDisplay": "Landmarks",
+        "clickable": true,
+        "checked": true,
+        "urlWfs": "http://forums.igenesys.com/geoservergafsim/gafsim/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=gafsim:jaipur_building&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326",
+        "type": 11,
+        "menu": {
+            "startEdit": true,
+            "remove": true
+        },
+        "fields": [
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "Name",
+                "editable": true,
+                "hint": "",
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "edit_text",
+                "value": null,
+                "key": "name"
+            },
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "No. of Floors",
+                "editable": true,
+                "hint": "Enter altitude",
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "edit_text",
+                "value": null,
+                "key": "no_of_flr"
+            },
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "Building Type",
+                "editable": true,
+                "values": [
+                    "Select",
+                    "Commercial",
+                    "Industrial",
+                    "Educational",
+                    "Hospital",
+                    "Government"
+                ],
+                "hint": "Enter street_name",
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "spinner",
+                "value": null,
+                "key": "bldg_type"
+            },
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "Structure Type",
+                "editable": true,
+                "hint": "Enter Name",
+                "values": [
+                    "Select",
+                    "Modern",
+                    "Architectural Landmark"
+                ],
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "spinner",
+                "value": null,
+                "key": "structure_"
+            }
+        ],
+        "nameLAYER": "gafsim:jaipur_building",
+        "geometryType": "Point"
+    },
+    {
+        "editAttribute": true,
+        "urlTile": "http://forums.igenesys.com/geoservergafsim/gafsim/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=gafsim:jaipur_streets_sample&toShowInLegends=true&toShowInTOC=true&SRS=EPSG%3A900913&STYLES=&WIDTH=256&HEIGHT=256",
+        "nameDisplay": "Street",
+        "clickable": true,
+        "checked": true,
+        "urlWfs": "http://forums.igenesys.com/geoservergafsim/gafsim/wfs?service=WFS&version=1.1.0&request=GetFeature&typename=gafsim:jaipur_streets_sample&outputFormat=application/json&format_options=callback:loadFeatures&srsname=EPSG:4326",
+        "type": 11,
+        "menu": {
+            "startEdit": true,
+            "remove": true
+        },
+        "fields": [
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "No. of Lanes",
+                "editable": true,
+                "values": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                ],
+                "hint": "",
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "spinner",
+                "value": null,
+                "key": "n_of_lanes"
+            },
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "Status",
+                "editable": true,
+                "values": [
+                    "Select",
+                    "Accessible",
+                    "Non Accessible",
+                    "Private",
+                    "Restricted"
+                ],
+                "hint": "Enter altitude",
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "spinner",
+                "value": null,
+                "key": "status"
+            },
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "Road Exist",
+                "editable": true,
+                "values": [
+                    "Select",
+                    "YES",
+                    "NO"
+                ],
+                "hint": "Enter street_name",
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "spinner",
+                "value": null,
+                "key": "road_exist"
+            },
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "road_type",
+                "editable": true,
+                "hint": "Enter Name",
+                "values": [
+                    "Select",
+                    "PAVED",
+                    "UNPAVED"
+                ],
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "spinner",
+                "value": null,
+                "key": "road_type"
+            },
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "Road Width",
+                "editable": true,
+                "values": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "hint": "Enter Name",
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "spinner",
+                "value": null,
+                "key": "road_width"
+            },
+            {
+                "v_max_length": {
+                    "err": "Max length can be at most 10.",
+                    "value": "10"
+                },
+                "displayName": "restr_entr",
+                "editable": true,
+                "values": [
+                    "Select",
+                    "YES",
+                    "NO"
+                ],
+                "hint": "Enter comment",
+                "inputType": "TYPE_CLASS_TEXT",
+                "v_min_length": {
+                    "err": "Min length should be at least 3",
+                    "value": "3"
+                },
+                "type": "spinner",
+                "value": null,
+                "key": "restr_entr"
+            }
+        ],
+        "nameLAYER": "gafsim:jaipur_streets_sample",
+        "geometryType": "LineString"
+    }
+]
