@@ -8,7 +8,7 @@
 "checked" : true,
 "nameLAYER": "gafsim:jaipur_building",
 "nameDisplay":"Jaipur Building",
-"geometryType":"Polygon",
+"geometryType":"Point",
 "clickable":true,
  "editAttribute":true,
 	"menu":{
