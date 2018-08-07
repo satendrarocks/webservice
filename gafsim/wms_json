@@ -7,7 +7,7 @@
           "EPSG:3857"
         ],
         "country_code": "ZA",
-        "id": "Ghana_building",
+        "id": "Ghana_building_2",
         "name": "subah_ghana:buildings",
         "overlay": true,
         "type": "wms",
@@ -21,7 +21,7 @@
           "EPSG:3857"
         ],
         "country_code": "ZA",
-        "id": "Ghana_road",
+        "id": "Ghana_road_2",
         "name": "subah_ghana:centre_line",
         "overlay": true,
         "type": "wms",
