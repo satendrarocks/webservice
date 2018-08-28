@@ -14,7 +14,8 @@
         "url": "http://197.159.134.178/geoserver/subah_ghana/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=subah_ghana:buildings&SRS=EPSG%3A900913&STYLES=&WIDTH=512&HEIGHT=512&BBOX={bbox}"
       },
       "type": "Feature"
-    },{
+    },
+	{
       "geometry": null,
       "properties": {
         "available_projections": [
@@ -26,7 +27,9 @@
         "overlay": true,
         "type": "wms",
         "url": "http://197.159.134.178/geoserver/subah_ghana/wms?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=subah_ghana:centre_line&SRS=EPSG%3A900913&STYLES=&WIDTH=512&HEIGHT=512&BBOX={bbox}"
-      }
+      },
+	    "type": "Feature"
+    }
   ],
   "meta": {
     "format_version": "1.0",
