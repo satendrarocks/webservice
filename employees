@@ -27,7 +27,7 @@
       "Department": "Product Management",
       "Email": "dan.marous@acmecorp.com",
       "Manager_Name": "Dan Marous",
-      "Image_URL": "image3.png",
+      "Image_URL": "https://i.pinimg.com/originals/be/ac/96/beac96b8e13d2198fd4bb1d5ef56cdcf.jpg",
       "Primary_Phone": "(879) 012-3730",
       "Name": "Dan Marous"
     },
@@ -47,7 +47,7 @@
       "Department": "Product Management",
       "Email": "elizabeth@acmecorp.com",
       "Manager_Name": "Dan Marous",
-      "Image_URL": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+      "Image_URL": "https://i.pinimg.com/originals/be/ac/96/beac96b8e13d2198fd4bb1d5ef56cdcf.jpg",
       "Primary_Phone": "(879) 012-3732",
       "Name": "Elizabeth James"
     },
