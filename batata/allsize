@@ -1,0 +1,41 @@
+[
+    {
+        "shopNo": "7502",
+        "shopName": "BURARI        ",
+        "articleNo": "0011254",
+        "eanNo": "0011254050",
+        "articleName": "BIBI      ",
+        "articleSize": "050",
+        "articleMRP": 999.0,
+        "totalStock": 1,
+        "phoneNumber": "9999226817",
+        "shopLatitude": "28.703488",
+        "shopLongitude": "77.0887"
+    },
+    {
+        "shopNo": "7502",
+        "shopName": "BURARI        ",
+        "articleNo": "0011254",
+        "eanNo": "0011254030",
+        "articleName": "BIBI      ",
+        "articleSize": "030",
+        "articleMRP": 999.0,
+        "totalStock": 1,
+        "phoneNumber": "9999226817",
+        "shopLatitude": "28.703488",
+        "shopLongitude": "77.0887"
+    },
+    {
+        "shopNo": "7502",
+        "shopName": "BURARI        ",
+        "articleNo": "0011254",
+        "eanNo": "0011254040",
+        "articleName": "BIBI      ",
+        "articleSize": "040",
+        "articleMRP": 999.0,
+        "totalStock": 2,
+        "phoneNumber": "9999226817",
+        "shopLatitude": "28.703488",
+        "shopLongitude": "77.0887"
+    }
+]
