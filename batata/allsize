@@ -1,6 +1,6 @@
 [
     {
-        "shopNo": "7502",
+        "shopNo": "75020",
         "shopName": "BURARI        ",
         "articleNo": "0011254",
         "eanNo": "0011254050",
@@ -8,8 +8,8 @@
         "articleSize": "050",
         "articleMRP": 999.0,
         "totalStock": 1,
-        "phoneNumber": "9999226817",
-        "shopLatitude": "28.703488",
+        "phoneNumber": "9876543210",
+        "shopLatitude": "28.723488",
         "shopLongitude": "77.0887"
     },
     {
@@ -21,8 +21,8 @@
         "articleSize": "030",
         "articleMRP": 999.0,
         "totalStock": 1,
-        "phoneNumber": "9999226817",
-        "shopLatitude": "28.703488",
+        "phoneNumber": "9876543210",
+        "shopLatitude": "28.723488",
         "shopLongitude": "77.0887"
     },
     {
@@ -34,8 +34,8 @@
         "articleSize": "040",
         "articleMRP": 999.0,
         "totalStock": 2,
-        "phoneNumber": "9999226817",
-        "shopLatitude": "28.703488",
+        "phoneNumber": "9876543210",
+        "shopLatitude": "28.723488",
         "shopLongitude": "77.0887"
     }
 ]
