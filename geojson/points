@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "NewYork",
+        "area": 1150180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.740234375,
+          40.713955826286046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Londan",
+        "area": 1150180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4609375,
+          52.696361078274485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Portgal",
+        "area": 1150180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3828125,
+          39.232253141714885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Rome",
+        "area": 1150180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7109375,
+          42.5530802889558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Mumbai",
+        "area": 1150180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.94921875,
+          19.103648251663646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Delhi",
+        "area": 1150180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.255859375,
+          28.536274512989916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Dubai",
+        "area": 1150180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.3271484375,
+          25.20494115356912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kula",
+        "area": 1150180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.111328125,
+          8.146242825034385
+        ]
+      }
+    }
+  ]
+}
